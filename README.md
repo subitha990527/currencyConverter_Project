@@ -14,7 +14,7 @@ This is a simple Spring Boot application that provides APIs to fetch exchange ra
 
    git clone https://github.com/subitha990527/currencyConverter_Project.git
 
-##Running the Application
+## Running the Application
   1. Navigate to the project's root directory:
      bash
   - cd currencyConverter_Project
