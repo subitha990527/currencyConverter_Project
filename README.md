@@ -14,3 +14,7 @@ This is a simple Spring Boot application that provides APIs to fetch exchange ra
 1. Clone the repository:
 
    git clone https://github.com/subitha990527/currencyConverter_Project.git
+
+ ## To run tests, use:
+   - mvn test
+
