@@ -20,7 +20,7 @@ This is a simple Spring Boot application that provides APIs to fetch exchange ra
   - cd currencyConverter_Project
 
   2. Build and run the project using Maven:
-     ```bash
+     bash
   - mvn spring-boot:run
 
  ## To run tests, use:
