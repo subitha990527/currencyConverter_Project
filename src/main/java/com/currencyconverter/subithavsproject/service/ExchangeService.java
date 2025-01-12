@@ -8,7 +8,8 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class ExchangeService {
-        private final RestTemplate restTemplate = new RestTemplate();
+
+    private final RestTemplate restTemplate = new RestTemplate();
     private static final String API_URL = "https://api.exchangerate-api.com/v4/latest/";
 
     public Map<String, Double> getExchangeRates(String baseCurrency) {

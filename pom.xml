@@ -47,19 +47,20 @@
    			<version>1.18.36</version>
     		<scope>provided</scope>
 		</dependency>
+
 		<dependency>
     		<groupId>com.fasterxml.jackson.core</groupId>
     		<artifactId>jackson-databind</artifactId>
     		<version>2.18.2</version>
+		</dependency>	
+		
+		<dependency>
+    		<groupId>org.junit.jupiter</groupId>
+    		<artifactId>junit-jupiter</artifactId>
+    		<version>5.10.0</version> <!-- Latest stable version -->
+    		<scope>test</scope>
 		</dependency>
 
-	
-<dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter</artifactId>
-    <version>5.10.0</version> <!-- Latest stable version -->
-    <scope>test</scope>
-</dependency>
  </dependencies>
 
 	<build>
@@ -68,9 +69,9 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 					<configuration>
-    <redirectTestOutputToFile>true</redirectTestOutputToFile>
-    <trimStackTrace>false</trimStackTrace>
-</configuration>
+    					<redirectTestOutputToFile>true</redirectTestOutputToFile>
+    					<trimStackTrace>false</trimStackTrace>
+					</configuration>
 			</plugin>
 		</plugins>
 	</build>
