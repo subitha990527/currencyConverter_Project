@@ -1,4 +1,4 @@
-# Currency Project
+# Currency Converter Project
 
 This is a simple Spring Boot application that provides APIs to fetch exchange rates and convert currency.
 
